@@ -1,4 +1,6 @@
 
+import "./about-tab-styles.css";
+
 function createAboutTab() {
     const aboutTab = document.createElement("div");
     aboutTab.classList.add("about-tab")

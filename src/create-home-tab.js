@@ -1,4 +1,6 @@
 import mangoLogo from "./mng-logo.png";
+import "./home-tab-styles.css";
+
 // import batLogo from "./bat-coffee.png"
 
 function createHomeTab() {

@@ -12,24 +12,20 @@
     --btn-font-color: #FF7F50;
 }
 
-.home-tab {
+.about-tab {
     background-color: var(--main-bg-color);
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-    border: solid 3px var(--border-color);
-}
-
-img {
-    width: 25rem;
-    margin: auto;
-}
-
-.home-tab > div {
-    height: fit-content;
-    padding: 1rem;
-    border: solid 3px var(--border-color);
     text-align: center;
+    padding: 2rem;
+    border: solid 3px #8B5E3C;
+
+}
+
+.about-tab > h2 {
     color: var(--h-font-color);
-    border-radius: 1rem;
+    font-family: karla;
+}
+
+.about-tab > p {
+    color: var(--p-font-color);
+    font-family: yeseva;
 }

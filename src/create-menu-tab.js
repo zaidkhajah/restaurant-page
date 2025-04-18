@@ -1,5 +1,6 @@
 
 import goldenMangoMenu from "./golden-mango-menu.js";
+import "./menu-tab-styles.css";
 
 function createMenuTab() {
     const menuContainer = document.createElement("div");

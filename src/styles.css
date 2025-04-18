@@ -8,7 +8,6 @@
     src: url(./fonts/YesevaOne-Regular.ttf);
 }
 
-
 :root {
     --main-bg-color: #FFF8EC;
     --margins-bg-color: #FFB347;
@@ -81,74 +80,6 @@ header button:active {
 
 }
 
-.menu-tab {
-    background-color: var(--main-bg-color);
-    border: solid 3px var(--border-color);
-    color: var(--p-font-color);
-
-    padding: 1rem;
-    text-align: center;
-}
-
-.menu-tab h2 {
-    color: var(--h-font-color);
-    text-align: center;
-    font-size: 3rem;
-
-    /* background-color: var(--headings-bg-color); */
-}
-
-li > h3 {
-    color: var(--h-font-color);
-    font-size: 1.25rem;
-}
-
-.menu-tab h2,
-li > h3 {
-    font-family: yeseva;
-}
-
 p {
     font-family: karla;
-}
-
-
-/* Home Tab */
-.home-tab {
-    background-color: var(--main-bg-color);
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-    border: solid 3px var(--border-color);
-}
-
-img {
-    width: 25rem;
-    margin: auto;
-}
-
-.home-tab > div {
-    height: fit-content;
-    padding: 1rem;
-    border: solid 3px var(--border-color);
-    text-align: center;
-    color: var(--headings-bg-color);
-    border-radius: 1rem;
-}
-
-/* about tab */
-.about-tab {
-    background-color: var(--main-bg-color);
-    text-align: center;
-    padding: 1rem;
-}
-
-.about-tab > h2 {
-    color: var(--h-font-color);
-    font-family: karla;
-}
-
-.about-tab > p {
-    color: var(--p-font-color);
-    font-family: yeseva;
 }

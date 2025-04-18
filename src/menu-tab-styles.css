@@ -1,0 +1,38 @@
+:root {
+    --main-bg-color: #FFF8EC;
+    --margins-bg-color: #FFB347;
+    --headings-bg-color: #FFB347;
+
+    --p-font-color: #8B5E3C;
+    --h-font-color: #F4A300;
+
+    --border-color: #8B5E3C;
+
+    --btn-bg-color: #5C913B;
+    --btn-font-color: #FF7F50;
+}
+
+.menu-tab {
+    background-color: var(--main-bg-color);
+    border: solid 3px var(--border-color);
+    color: var(--p-font-color);
+
+    padding: 1rem;
+    text-align: center;
+}
+
+.menu-tab h2 {
+    color: var(--h-font-color);
+    text-align: center;
+    font-size: 3rem;
+}
+
+li > h3 {
+    color: var(--h-font-color);
+    font-size: 1.25rem;
+}
+
+.menu-tab h2,
+li > h3 {
+    font-family: yeseva;
+}
