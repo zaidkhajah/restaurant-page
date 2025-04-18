@@ -1,0 +1,154 @@
+@font-face {
+    font-family: karla;
+    src: url(./fonts/Karla-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: yeseva;
+    src: url(./fonts/YesevaOne-Regular.ttf);
+}
+
+
+:root {
+    --main-bg-color: #FFF8EC;
+    --margins-bg-color: #FFB347;
+    --headings-bg-color: #FFB347;
+
+    --p-font-color: #8B5E3C;
+    --h-font-color: #F4A300;
+
+    --border-color: #8B5E3C;
+
+    --btn-bg-color: #5C913B;
+    --btn-font-color: #FF7F50;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 1.5rem;
+}
+
+li {
+    border-bottom: solid 1px #8B5E3C;
+}
+
+li:last-child {
+    border: none;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--margins-bg-color);
+    margin: 0;
+
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header button {
+    font-size: 1.5rem;
+    background-color: var(--btn-bg-color);
+    border: solid 1px var(--border-color);
+    border-radius: 1rem;
+    padding: 0.2rem 2rem;
+    font-family: yeseva;
+    color: var(--btn-font-color);
+}
+
+header button:hover {
+    opacity: 0.7;
+}
+
+header button:active {
+    opacity: 0.4;
+}
+
+#content {
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 42rem 1fr;
+    gap: 1rem;
+
+    background-color: var(--margins-bg-color);
+
+}
+
+.menu-tab {
+    background-color: var(--main-bg-color);
+    border: solid 3px var(--border-color);
+    color: var(--p-font-color);
+
+    padding: 1rem;
+    text-align: center;
+}
+
+.menu-tab h2 {
+    color: var(--h-font-color);
+    text-align: center;
+    font-size: 3rem;
+
+    /* background-color: var(--headings-bg-color); */
+}
+
+li > h3 {
+    color: var(--h-font-color);
+    font-size: 1.25rem;
+}
+
+.menu-tab h2,
+li > h3 {
+    font-family: yeseva;
+}
+
+p {
+    font-family: karla;
+}
+
+
+/* Home Tab */
+.home-tab {
+    background-color: var(--main-bg-color);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    border: solid 3px var(--border-color);
+}
+
+img {
+    width: 25rem;
+    margin: auto;
+}
+
+.home-tab > div {
+    height: fit-content;
+    padding: 1rem;
+    border: solid 3px var(--border-color);
+    text-align: center;
+    color: var(--headings-bg-color);
+    border-radius: 1rem;
+}
+
+/* about tab */
+.about-tab {
+    background-color: var(--main-bg-color);
+    text-align: center;
+    padding: 1rem;
+}
+
+.about-tab > h2 {
+    color: var(--h-font-color);
+    font-family: karla;
+}
+
+.about-tab > p {
+    color: var(--p-font-color);
+    font-family: yeseva;
+}

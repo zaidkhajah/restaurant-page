@@ -3,6 +3,7 @@ import goldenMangoMenu from "./golden-mango-menu.js";
 
 function createMenuTab() {
     const menuContainer = document.createElement("div");
+    menuContainer.classList.add("menu-tab");
     for (const [menuSectionName, menuSectionItems] of Object.entries(goldenMangoMenu)) {
         menuContainer.appendChild( createMenuSection( menuSectionName,  menuSectionItems) );
     }
@@ -12,7 +13,7 @@ function createMenuTab() {
 function createMenuItem(name, description, price) {
     const item = document.createElement("li");
 
-    const nElement = document.createElement("p");
+    const nElement = document.createElement("h3");
     nElement.textContent = `${name}`;
 
     const dElement = document.createElement("p");
